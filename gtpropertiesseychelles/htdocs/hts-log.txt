@@ -1,0 +1,21 @@
+HTTrack3.48-22+htsswf+htsjava launched on Thu, 21 Jul 2016 11:47:58 at http://gtpropertiesseychelles.com/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://gtpropertiesseychelles.com/index.html -O1 "C:\My Web Sites\GT properties" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:48:06	Warning: 	Moved Permanently for gtpropertiesseychelles.com/
+11:48:06	Warning: 	File has moved from gtpropertiesseychelles.com/ to http://gtpropertiesseychelles.com/index.html
+11:49:09	Error: 	"Not Found" (404) at link gtpropertiesseychelles.com/files/theme/navli.gif?1465482357 (from gtpropertiesseychelles.com/files/main_style.css?1465482357)
+11:49:16	Error: 	"Not Found" (404) at link gtpropertiesseychelles.com/files/theme/secondary-2-ban-bg.jpg?1465482357 (from gtpropertiesseychelles.com/files/main_style.css?1465482357)
+11:49:16	Error: 	"Not Found" (404) at link gtpropertiesseychelles.com/files/theme/form-input-bg.gif?1465482357 (from gtpropertiesseychelles.com/files/main_style.css?1465482357)
+11:49:16	Error: 	"Not Found" (404) at link gtpropertiesseychelles.com/mustache.js (from cdn2.editmysite.com/js/site/main.js?buildTime=1465424781)
+11:49:16	Error: 	"Not Found" (404) at link gtpropertiesseychelles.com/formSubmit.php (from cdn2.editmysite.com/js/site/main.js?buildTime=1465424781)
+11:49:16	Error: 	"Not Found" (404) at link gtpropertiesseychelles.com/formSubmitAjax.php (from cdn2.editmysite.com/js/site/main.js?buildTime=1465424781)
+11:49:16	Error: 	"Not Found" (404) at link gtpropertiesseychelles.com/o (from cdn2.editmysite.com/js/site/main.js?buildTime=1465424781)
+11:49:18	Error: 	"Not Found" (404) at link gtpropertiesseychelles.com/weebly/images/ (from cdn1.editmysite.com/editor/libraries/slideshow-jq.js?buildTime=1465424781)
+
+HTTrack Website Copier/3.48-22 mirror complete in 1 minutes 20 seconds : 126 links scanned, 116 files written (2771451 bytes overall) [1990506 bytes received at 24881 bytes/sec], 1092606 bytes transferred using HTTP compression in 9 files, ratio 23%, 7.4 requests per connection
+(8 errors, 2 warnings, 0 messages)

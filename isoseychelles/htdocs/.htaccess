@@ -1,0 +1,22 @@
+RewriteEngine On
+
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteRule ^$ http://la-combe.com/en/ [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^de [NC]
+RewriteRule ^$ http://la-combe.com/de/ [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^nl [NC]
+RewriteRule ^$ http://la-combe.com/nl/ [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule ^$ http://la-combe.com/fr/ [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^es [NC]
+RewriteRule ^$ http://la-combe.com/es/ [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+RewriteRule ^(en|de|nl|fr|es)/?$ index.php?lang=$1 [QSA,NC,L]

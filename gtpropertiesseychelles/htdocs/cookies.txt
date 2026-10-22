@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.seyvillas.com	TRUE	/	FALSE	1999999999	sticky	5526988231030431.000
+gtpropertiesseychelles.com	TRUE	/	FALSE	1999999999	is_mobile	0
+
